@@ -1,0 +1,45 @@
+/* Tablets */
+@media screen and (max-width:768px) {
+    body {
+        max-width: 768px;
+        padding: 1px;
+        width: 100%;
+        
+    }
+    #tribute-info {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        padding: 1px;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .italic {
+        font-size: 0.6rem;
+    } 
+}
+
+/* Mobiles */
+@media screen and (max-width:600px) {
+    body {
+        max-width: 600px;
+        padding: 1px;
+
+        
+    }
+    #tribute-info {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        padding: spx;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .italic {
+        font-size: 0.6rem;
+    }
+}
